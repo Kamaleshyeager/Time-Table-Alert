@@ -37,7 +37,7 @@ from telegram.ext import (
 # ---------------------------
 # CONFIG - Edit your token
 # ---------------------------
-BOT_TOKEN = "8494429966:AAEAYv2I2L4_sWXUYOtGe8aWxtK7lPElzjI"
+BOT_TOKEN = "INSERT YOUR BOT_TOKEN HERE"
 IST = pytz.timezone("Asia/Kolkata")
 DATA_DIR = "users"
 os.makedirs(DATA_DIR, exist_ok=True)
