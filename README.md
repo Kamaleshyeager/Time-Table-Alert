@@ -2,11 +2,20 @@
 
 A Python bot that reminds you before each class based on your timetable.
 
+## Why This Project?
+At **Vellore Institute of Technology (VIT)**, the timetable system can get confusing —  
+class **venues, faculty names, and slot codes** are different for every student.  
+Most students end up checking screenshots or PDFs multiple times a day just to confirm their next class.  
+
+This project solves that problem by sending **automatic reminders** before each class.  
+It makes it easy to know *what class, where, and when* — without the need to search through messy timetables.
+
 ## Features
-- Reads timetable slots
+- Reads and stores your personal timetable slots
 - Sends reminders before each class
-- Uses APScheduler for scheduling
-- Customizable timetable
+- Uses APScheduler for accurate scheduling
+- Fully customizable timetable (fits VIT’s slot system)
+- Helps avoid confusion caused by varying slots, venues, and faculty names
 
 ## Requirements
 - Python 3.9+
