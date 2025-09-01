@@ -3,12 +3,12 @@
 A Python bot that reminds you before each class based on your timetable.
 
 ## Why This Project?
-At **Vellore Institute of Technology (VIT)**, the timetable system can get confusing —  
+At **Vellore Institute of Technology (VIT)**, the timetable system can get confusing - 
 class **venues, faculty names, and slot codes** are different for every student.  
 Most students end up checking screenshots or PDFs multiple times a day just to confirm their next class.  
 
 This project solves that problem by sending **automatic reminders** before each class.  
-It makes it easy to know *what class, where, and when* — without the need to search through messy timetables.
+It makes it easy to know *what class, where, and when* without the need to search through messy timetables.
 
 ## Features
 - Reads and stores your personal timetable slots
@@ -47,3 +47,9 @@ It makes it easy to know *what class, where, and when* — without the need to s
     ```
 
 ## Project Structure
+timetable-bot/
+│
+├── timetable_bot.py # Main bot script (reads timetable and sends reminders)
+├── requirements.txt # Python dependencies
+├── .gitignore # Files and folders to ignore in Git
+└── README.md # Project documentation
