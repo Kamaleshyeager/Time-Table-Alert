@@ -46,10 +46,3 @@ It makes it easy to know *what class, where, and when* without the need to searc
     python timetable_bot.py
     ```
 
-## Project Structure
-timetable-bot/
-│
-├── timetable_bot.py # Main bot script (reads timetable and sends reminders)
-├── requirements.txt # Python dependencies
-├── .gitignore # Files and folders to ignore in Git
-└── README.md # Project documentation
